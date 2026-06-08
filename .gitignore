@@ -1,1 +1,23 @@
+# Build directories
+target/
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Configuration files with sensitive data
 src/main/resources/application.properties
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
